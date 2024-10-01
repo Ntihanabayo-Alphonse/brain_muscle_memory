@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game_controls">
+            <button class="btn_start">Start</button>
+            <div class="stat">
+                <div class="move">0 move</div>
+                <div class="time">time: 0 sec</div>
+            </div>
+        </div>
+
+        <div class="board_container">
+            <div class="game_board" data-dimension="4">
+                <div class="card">
+                    <div class="card_front"></div>
+                    <div class="card_back"></div>
+                </div>
+            </div>
+            <div class="win_board"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
